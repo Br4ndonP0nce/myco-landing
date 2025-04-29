@@ -106,9 +106,9 @@ export default function ContactPage() {
                           Our Location
                         </h3>
                         <p className="text-myco-dark/80">
-                          30 Derrykeeran Road
+                          tbd
                           <br />
-                          Portadown
+                          tbd
                           <br />
                           Northern Ireland
                         </p>

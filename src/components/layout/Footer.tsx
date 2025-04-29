@@ -19,7 +19,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-myco-dark text-white flex flex-col items-center justify-center">
+    <footer className="bg-myco-dark text-white flex flex-col items-center justify-center px-5">
       <div className="container section-padding">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Column 1: About */}
@@ -149,7 +149,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-myco-secondary shrink-0 mt-0.5" />
-                <span>30 Derrykeeran Road, Portadown, Northern Ireland</span>
+                <span>TBD</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-myco-secondary shrink-0" />

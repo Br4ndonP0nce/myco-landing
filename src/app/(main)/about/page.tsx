@@ -236,17 +236,16 @@ export default function AboutPage() {
 
               <div>
                 <h3 className="text-xl font-bold text-myco-primary font-display">
-                  Tanya Barakat, MSc
+                  Redacted, MSc {/*Tanya Barakat*/}
                 </h3>
                 <p className="text-myco-secondary font-medium mb-2">
                   Founder & CEO
                 </p>
                 <p className="text-myco-dark/80 mb-4">
                   With over 7 years of experience in the pharmaceutical
-                  industry, including work with Alvarius Pharmaceuticals and
-                  consulting with several EU-GACP cannabis projects in the EU.
-                  Tanya holds an MSc in Pharmaceutical Analysis and a BSc in
-                  Biomedical Science.
+                  industry, including work with Redacted and consulting with
+                  several EU-GACP cannabis projects in the EU. holds an MSc in
+                  Pharmaceutical Analysis and a BSc in Biomedical Science.
                 </p>
                 <Link
                   href="https://linkedin.com/"
@@ -305,20 +304,13 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-myco-primary font-display">
-                    Dr. Le Roy Dowey
+                    Redacted {/*Name*/}
                   </h3>
-                  <p className="text-myco-dark/70 text-sm">
-                    University of Ulster, Northern Ireland
-                  </p>
+                  <p className="text-myco-dark/70 text-sm">Redacted</p>
+                  {/*University*/}
                 </div>
               </div>
-              <p className="text-myco-dark/80 text-sm">
-                After achieving his PhD in Nutritional Biochemistry from Ulster
-                University in 2002, Le Roy gained significant expertise in
-                research commercialization and business development. He now
-                works at Ulster University as a Business Development Manager in
-                their Biomedical Sciences Research Institute.
-              </p>
+              <p className="text-myco-dark/80 text-sm">To be redacted</p>
             </motion.div>
 
             <motion.div
@@ -337,20 +329,12 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-myco-primary font-display">
-                    Dr. Klaas Riepma
+                    Redacted {/*Name*/}
                   </h3>
-                  <p className="text-myco-dark/70 text-sm">
-                    Phytopharma BV, Netherlands
-                  </p>
+                  <p className="text-myco-dark/70 text-sm">{/*University*/}</p>
                 </div>
               </div>
-              <p className="text-myco-dark/80 text-sm">
-                Founder and owner pharmacist with more than three decades of
-                expertise in the field. Dr. Riepma has been at the forefront of
-                advancing a diverse range of successful liposomal products and
-                applications, holding numerous liposomal administration patents
-                and establishing several production facilities worldwide.
-              </p>
+              <p className="text-myco-dark/80 text-sm">To be redacted</p>
             </motion.div>
           </div>
         </div>
@@ -371,9 +355,9 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-myco-dark/80">
                 <p>
-                  Located just off the M1 Motorway at the Birches, Portadown,
-                  our 4,615 sq. ft. facility is designed for maximum efficiency
-                  and optimal growing conditions for medicinal mushrooms.
+                  Located just off Redacted, our 4,615 sq. ft. facility is
+                  designed for maximum efficiency and optimal growing conditions
+                  for medicinal mushrooms.
                 </p>
                 <p>
                   The facility is being upgraded to obtain EU-GACP and FSSC
