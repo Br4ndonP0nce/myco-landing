@@ -62,7 +62,7 @@ const OverviewTab = ({ product }: { product: ProductData }) => {
               All our mushroom products undergo rigorous quality testing to
               ensure potency, purity, and safety. Our {product.title} is
               cultivated under strict EU-GACP guidelines, ensuring consistent
-              pharmaceutical-grade quality.
+              food-grade quality.
             </p>
           </div>
         </div>

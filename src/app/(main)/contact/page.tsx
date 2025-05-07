@@ -357,8 +357,8 @@ export default function ContactPage() {
               <p className="text-myco-dark/80">
                 Our facility is being upgraded to meet EU-GACP (Good
                 Agricultural and Collection Practice) standards, ensuring our
-                products meet pharmaceutical-grade requirements. We are also
-                pursuing FSSC 22000 certification.
+                products meet food-grade requirements. We are also pursuing FSSC
+                22000 certification.
               </p>
             </div>
 

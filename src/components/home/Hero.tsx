@@ -35,8 +35,8 @@ export default function Hero() {
           >
             <p className="text-lg md:text-xl text-myco-dark/80 mb-8 max-w-2xl mx-auto text-balance">
               Premium medicinal mushroom cultivation, specializing in Lion's
-              Mane with EU-GACP certification for pharmaceutical and
-              nutraceutical applications.
+              Mane with EU-GACP certification for food and nutraceutical
+              applications.
             </p>
           </motion.div>
 

@@ -118,22 +118,30 @@ export default function ProductsPage() {
             </h1>
             <p className="text-xl text-myco-dark/80 mb-8">
               Premium medicinal mushrooms cultivated with scientific precision
-              for pharmaceutical and nutraceutical applications.
+              for food and nutraceutical applications.
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* Product Categories */}
-      <section className="py-16 bg-white ">
+      <section className="py-16 bg-white  ">
         <div className="container">
-          <Tabs defaultValue="all" className="w-full">
-            <div className="flex justify-center mb-8">
-              <TabsList className="bg-myco-light">
-                <TabsTrigger value="all">All Products</TabsTrigger>
-                <TabsTrigger value="available">Available Now</TabsTrigger>
-                <TabsTrigger value="coming-soon">Coming Soon</TabsTrigger>
-                <TabsTrigger value="development">In Development</TabsTrigger>
+          <Tabs defaultValue="all" className="w-full  ">
+            <div className="flex justify-center mb-8  ">
+              <TabsList className="bg-myco-light  ">
+                <TabsTrigger value="all" className="text-[12px]">
+                  All Products
+                </TabsTrigger>
+                <TabsTrigger value="available" className="text-[12px]">
+                  Available Now
+                </TabsTrigger>
+                <TabsTrigger value="coming-soon" className="text-[12px]">
+                  Coming Soon
+                </TabsTrigger>
+                <TabsTrigger value="development" className="text-[12px]">
+                  In Development
+                </TabsTrigger>
               </TabsList>
             </div>
 
@@ -239,7 +247,7 @@ export default function ProductsPage() {
               </h2>
               <p className="text-lg text-myco-dark/70">
                 We maintain rigorous quality controls throughout our cultivation
-                process to ensure pharmaceutical-grade products.
+                process to ensure food-grade products.
               </p>
             </motion.div>
           </div>
@@ -261,7 +269,7 @@ export default function ProductsPage() {
               <p className="text-myco-dark/80 mb-4">
                 Our facility is being upgraded to meet European Good
                 Agricultural and Collection Practice standards, ensuring our
-                products meet pharmaceutical-grade requirements.
+                products meet food-grade requirements.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
@@ -399,14 +407,14 @@ export default function ProductsPage() {
               </h2>
               <div className="space-y-4 text-myco-dark/80">
                 <p>
-                  We provide premium medicinal mushrooms for pharmaceutical and
+                  We provide premium medicinal mushrooms for food and
                   nutraceutical companies looking for consistent, high-quality
                   ingredients for their products.
                 </p>
                 <p>
                   Our EU-GACP certification ensures that our mushrooms meet the
-                  rigorous standards required for pharmaceutical applications,
-                  while our comprehensive testing guarantees potency and safety.
+                  rigorous standards required for food applications, while our
+                  comprehensive testing guarantees potency and safety.
                 </p>
                 <p>
                   We can work with you to provide custom cultivation services

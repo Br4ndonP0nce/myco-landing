@@ -31,8 +31,8 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-gray-300">
               Premium medicinal mushroom cultivation, specializing in Lion's
-              Mane with EU-GACP certification for pharmaceutical and
-              nutraceutical applications.
+              Mane with EU-GACP certification for food and nutraceutical
+              applications.
             </p>
             <div className="flex space-x-3">
               <a

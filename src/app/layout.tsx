@@ -32,13 +32,12 @@ const fontDisplay = FontDisplay({
 export const metadata: Metadata = {
   title: "Myco Farms | Premium Medicinal Mushroom Cultivation",
   description:
-    "Cultivation of premium medicinal mushrooms, specializing in Lion's Mane and Cordyceps with EU-GACP certification for pharmaceutical and nutraceutical applications.",
+    "Cultivation of premium medicinal mushrooms, specializing in Lion's Mane and Cordyceps with Food Grade Certificate (FSA certified) and nutraceutical applications.",
   keywords: [
     "medicinal mushrooms",
     "Lion's Mane",
     "Cordyceps",
-    "pharmaceutical grade",
-    "EU-GACP",
+    "Food grade",
     "mushroom cultivation",
     "nutraceuticals",
   ],

@@ -85,8 +85,8 @@ export default function Home() {
                   Quality Guaranteed
                 </div>
                 <p className="text-sm text-myco-dark/80">
-                  Our EU-GACP certification ensures pharmaceutical-grade quality
-                  for every harvest.
+                  Our FSA certification ensures food-grade quality for every
+                  harvest.
                 </p>
               </div>
             </div>

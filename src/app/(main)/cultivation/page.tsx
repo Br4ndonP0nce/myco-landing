@@ -112,7 +112,7 @@ export default function CultivationPage() {
                 <p>
                   Every step of our cultivation process adheres to strict
                   EU-GACP standards, ensuring our products meet the rigorous
-                  requirements of the pharmaceutical industry.
+                  requirements of the food industry.
                 </p>
               </div>
 
@@ -1082,7 +1082,7 @@ export default function CultivationPage() {
             <h2 className="text-3xl font-bold mb-6 font-display">
               Learn More About Our Products
             </h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8">
+            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8 px-2">
               Discover our premium medicinal mushrooms, cultivated with
               precision for exceptional quality and bioactive content.
             </p>

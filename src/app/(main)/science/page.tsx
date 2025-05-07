@@ -337,7 +337,7 @@ export default function SciencePage() {
               <div className="space-y-4 text-myco-dark/80">
                 <p>
                   Every batch of our mushrooms undergoes rigorous testing to
-                  ensure pharmaceutical-grade quality and potency.
+                  ensure food-grade quality and potency.
                 </p>
                 <p>
                   We test for key bioactive compounds, including beta-glucans,
@@ -372,7 +372,7 @@ export default function SciencePage() {
             <h2 className="text-3xl font-bold mb-6 font-display">
               Explore Our Products
             </h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8">
+            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8 px-2">
               Discover our premium medicinal mushrooms, grown with scientific
               precision for exceptional quality and potency.
             </p>

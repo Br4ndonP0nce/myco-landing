@@ -58,22 +58,21 @@ export default function AboutPage() {
               <div className="space-y-4 text-myco-dark/80">
                 <p>
                   Myco Farms was founded with a vision to produce the highest
-                  quality medicinal mushrooms for pharmaceutical and
-                  nutraceutical applications. We recognized a gap in the market
-                  for transparent, standardized, and locally produced medicinal
+                  quality medicinal mushrooms for food and nutraceutical
+                  applications. We recognized a gap in the market for
+                  transparent, standardized, and locally produced medicinal
                   mushroom products.
                 </p>
                 <p>
                   Starting with our flagship product, Lion's Mane, we've built a
                   state-of-the-art facility in Northern Ireland that adheres to
                   strict EU-GACP standards. This ensures our products meet the
-                  rigorous requirements of the pharmaceutical industry.
+                  rigorous requirements of the food industry.
                 </p>
                 <p>
-                  Our team combines expertise in pharmaceutical science,
-                  horticultural engineering, and sustainable agricultural
-                  development to create a unique approach to medicinal mushroom
-                  cultivation.
+                  Our team combines expertise in food science, horticultural
+                  engineering, and sustainable agricultural development to
+                  create a unique approach to medicinal mushroom cultivation.
                 </p>
               </div>
             </motion.div>
@@ -139,10 +138,9 @@ export default function AboutPage() {
                 prioritized over cure.
               </p>
               <p className="text-myco-dark/80">
-                We aim to be a leading producer of mushroom active
-                pharmaceutical ingredients to the nutraceutical and
-                pharmaceutical industries, with a focus on quality, safety, and
-                sustainability.
+                We aim to be a leading producer of mushroom active food
+                ingredients to the nutraceutical and food industries, with a
+                focus on quality, safety, and sustainability.
               </p>
             </motion.div>
 
@@ -163,7 +161,7 @@ export default function AboutPage() {
                   </span>
                   <span>
                     <strong>Quality:</strong> We adhere to stringent EU-GACP
-                    standards to ensure pharmaceutical-grade products.
+                    standards to ensure food-grade products.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -213,8 +211,7 @@ export default function AboutPage() {
                 Meet Our Team
               </h2>
               <p className="text-lg text-myco-dark/70">
-                Led by experts in pharmaceutical science and agricultural
-                development.
+                Led by experts in food science and agricultural development.
               </p>
             </motion.div>
           </div>
@@ -242,10 +239,10 @@ export default function AboutPage() {
                   Founder & CEO
                 </p>
                 <p className="text-myco-dark/80 mb-4">
-                  With over 7 years of experience in the pharmaceutical
-                  industry, including work with Redacted and consulting with
-                  several EU-GACP cannabis projects in the EU. holds an MSc in
-                  Pharmaceutical Analysis and a BSc in Biomedical Science.
+                  With over 7 years of experience in the food industry,
+                  including work with Redacted and consulting with several
+                  EU-GACP cannabis projects in the EU. holds an MSc in food
+                  Analysis and a BSc in Biomedical Science.
                 </p>
                 <Link
                   href="https://linkedin.com/"
@@ -282,7 +279,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-myco-dark/70">
                 Our research and development is supported by leading experts in
-                mycology and pharmaceutical science.
+                mycology and food science.
               </p>
             </motion.div>
           </div>
@@ -362,7 +359,7 @@ export default function AboutPage() {
                 <p>
                   The facility is being upgraded to obtain EU-GACP and FSSC
                   22000 certification, ensuring we meet the highest standards
-                  for pharmaceutical-grade mushroom production.
+                  for food-grade mushroom production.
                 </p>
                 <p>
                   Our facility features multiple climate-controlled rooms with
