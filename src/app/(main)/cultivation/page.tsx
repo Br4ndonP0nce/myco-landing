@@ -84,7 +84,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Cultivation Overview Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -110,8 +110,8 @@ export default function CultivationPage() {
                   each mushroom species we cultivate.
                 </p>
                 <p>
-                  Every step of our cultivation process adheres to strict
-                  EU-GACP standards, ensuring our products meet the rigorous
+                  Every step of our cultivation process adheres to strict FSA
+                  standards, ensuring our products meet the rigorous
                   requirements of the food industry.
                 </p>
               </div>
@@ -143,7 +143,7 @@ export default function CultivationPage() {
               </div>
               <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-myco-secondary rounded-full flex items-center justify-center shadow-lg">
                 <div className="text-myco-dark text-center">
-                  <div className="font-display text-2xl font-bold">EU-GACP</div>
+                  <div className="font-display text-2xl font-bold">FSA</div>
                   <div className="text-sm">Standards</div>
                 </div>
               </div>
@@ -153,7 +153,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Cultivation Process Steps */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -603,7 +603,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Quality Assurance Section */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -689,7 +689,7 @@ export default function CultivationPage() {
                   microbial safety.
                 </p>
                 <p className="text-myco-dark/80">
-                  Our EU-GACP certification requires meticulous documentation of
+                  Our FSA certification requires meticulous documentation of
                   every step in our process, providing complete traceability
                   from spore to final product.
                 </p>
@@ -704,7 +704,7 @@ export default function CultivationPage() {
                         <span className="text-myco-primary font-bold">EU</span>
                       </div>
                       <div>
-                        <h4 className="font-medium">EU-GACP</h4>
+                        <h4 className="font-medium">FSA</h4>
                         <p className="text-sm text-myco-dark/60">
                           Good Agricultural and Collection Practice
                         </p>
@@ -730,7 +730,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Sustainability Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -891,7 +891,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Future Innovation Section */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -968,7 +968,7 @@ export default function CultivationPage() {
       </section>
 
       {/* Farm Tours Section */}
-      <section className="py-16 bg-white px-5 md:px-0">
+      <section className="py-16 bg-white px-5 md:px-0 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -1071,7 +1071,7 @@ export default function CultivationPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-myco-primary text-white">
+      <section className="py-16 bg-myco-primary text-white flex flex-col items-center justify-center">
         <div className="container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

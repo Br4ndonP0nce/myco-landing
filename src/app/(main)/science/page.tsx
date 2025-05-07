@@ -83,7 +83,7 @@ export default function SciencePage() {
       </section>
 
       {/* Research Partnership Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -141,7 +141,7 @@ export default function SciencePage() {
       </section>
 
       {/* Research Areas Section */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -190,7 +190,7 @@ export default function SciencePage() {
       </section>
 
       {/* The Science Behind Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -251,7 +251,7 @@ export default function SciencePage() {
       </section>
 
       {/* Publications Section */}
-      <section className="py-16 bg-myco-light px-10">
+      <section className="py-16 bg-myco-light px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -307,7 +307,7 @@ export default function SciencePage() {
       </section>
 
       {/* Quality Testing Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -361,7 +361,7 @@ export default function SciencePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-myco-primary text-white">
+      <section className="py-16 bg-myco-primary text-white flex flex-col items-center justify-center">
         <div className="container text-center">
           <motion.div
             initial="hidden"

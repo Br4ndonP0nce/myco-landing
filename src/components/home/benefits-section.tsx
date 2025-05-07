@@ -16,7 +16,7 @@ const benefits = [
   {
     title: "Pharmaceutical Grade",
     description:
-      "Our mushrooms are cultivated to EU-GACP standards, ensuring consistent potency and purity for pharmaceutical applications.",
+      "Our mushrooms are cultivated to FSA standards, ensuring consistent potency and purity for pharmaceutical applications.",
     icon: ShieldCheck,
     color: "bg-blue-50 text-blue-600",
   },

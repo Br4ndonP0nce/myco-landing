@@ -32,12 +32,12 @@ const newsArticles = [
   },
   {
     id: 2,
-    title: "EU-GACP Certification Process Underway",
-    slug: "eu-gacp-certification-process-underway",
+    title: "FSA Certification Process Underway",
+    slug: "FSA-certification-process-underway",
     excerpt:
-      "Myco Farms has begun the certification process for EU-GACP, a critical step in providing food-grade medicinal mushrooms to the European market.",
+      "Myco Farms has begun the certification process for FSA, a critical step in providing food-grade medicinal mushrooms to the European market.",
     content:
-      'Myco Farms has initiated the certification process for EU-GACP (European Good Agricultural and Collection Practice), a critical step in providing food-grade medicinal mushrooms to the European market. The EU-GACP guidelines ensure the quality, safety, consistency, and sustainability of herbal starting materials used in the production of herbal medicines.\n\n"This certification is essential for our business model, as it will allow us to supply our premium Lion\'s Mane and future mushroom products to food and nutraceutical companies throughout Europe," said Redacted, CEO of Myco Farms.\n\nThe company expects to complete the certification process by the end of the year, after which it will be positioned as one of the few EU-GACP certified medicinal mushroom producers in the United Kingdom.',
+      'Myco Farms has initiated the certification process for FSA (European Good Agricultural and Collection Practice), a critical step in providing food-grade medicinal mushrooms to the European market. The FSA guidelines ensure the quality, safety, consistency, and sustainability of herbal starting materials used in the production of herbal medicines.\n\n"This certification is essential for our business model, as it will allow us to supply our premium Lion\'s Mane and future mushroom products to food and nutraceutical companies throughout Europe," said Redacted, CEO of Myco Farms.\n\nThe company expects to complete the certification process by the end of the year, after which it will be positioned as one of the few FSA certified medicinal mushroom producers in the United Kingdom.',
     publishDate: "2024-03-28",
     author: "Redacted",
     category: "Certification",
@@ -76,7 +76,7 @@ const newsArticles = [
     excerpt:
       "A new market report indicates strong growth in the global medicinal mushroom market, with projections to reach $59.4 billion by 2031.",
     content:
-      'A new market report from Coherent Market Insights indicates strong growth in the global medicinal mushroom market, with projections to reach $59.4 billion by 2031. The market, estimated at $34.22 billion in 2024, is expected to grow at a compound annual growth rate (CAGR) of 8.2% over the next seven years.\n\n"This market forecast confirms what we\'ve been seeing in terms of increasing demand for high-quality medicinal mushrooms," said, Co-founder of Myco Farms. "The growth is being driven by increased consumer awareness of the health benefits of medicinal mushrooms and growing scientific evidence supporting their efficacy."\n\nThe report also highlights that Germany dominated the European market in 2020 and is expected to maintain its position until 2027, with a market value of $918 million. During the same period, the UK market is predicted to experience a CAGR of 7.5%, while the France market is poised to grow at a CAGR of 9.1%.\n\nThis growth presents significant opportunities for Myco Farms, which is positioning itself as a premium supplier of EU-GACP certified medicinal mushrooms for the food and nutraceutical industries.',
+      'A new market report from Coherent Market Insights indicates strong growth in the global medicinal mushroom market, with projections to reach $59.4 billion by 2031. The market, estimated at $34.22 billion in 2024, is expected to grow at a compound annual growth rate (CAGR) of 8.2% over the next seven years.\n\n"This market forecast confirms what we\'ve been seeing in terms of increasing demand for high-quality medicinal mushrooms," said, Co-founder of Myco Farms. "The growth is being driven by increased consumer awareness of the health benefits of medicinal mushrooms and growing scientific evidence supporting their efficacy."\n\nThe report also highlights that Germany dominated the European market in 2020 and is expected to maintain its position until 2027, with a market value of $918 million. During the same period, the UK market is predicted to experience a CAGR of 7.5%, while the France market is poised to grow at a CAGR of 9.1%.\n\nThis growth presents significant opportunities for Myco Farms, which is positioning itself as a premium supplier of FSA certified medicinal mushrooms for the food and nutraceutical industries.',
     publishDate: "2023-12-08",
     author: "Market Research Team",
     category: "Industry News",
@@ -121,7 +121,7 @@ export default function NewsPage() {
       </section>
 
       {/* Category Filter */}
-      <section className="py-8 bg-white border-b border-gray-200">
+      <section className="py-8 bg-white border-b border-gray-200 flex flex-col items-center justify-center">
         <div className="container">
           <div className="flex flex-wrap gap-2 justify-center">
             {categories.map((category) => (
@@ -143,7 +143,7 @@ export default function NewsPage() {
       </section>
 
       {/* News Articles Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredArticles.map((article, index) => (

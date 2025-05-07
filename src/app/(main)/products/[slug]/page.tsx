@@ -62,7 +62,7 @@ const products: ProductData[] = [
     ],
     cultivationDetails:
       "Our Lion's Mane mushrooms are grown in climate-controlled rooms where temperature, humidity, light, and air flow are precisely managed to create ideal growing conditions. We use carefully selected substrate materials optimized for Lion's Mane cultivation and enhanced bioactive compound production.\n\nEach batch undergoes a rigorous quality control process, including testing for bioactive compound content, ensuring our Lion's Mane mushrooms consistently meet our high standards for potency and quality.",
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     additionalImages: [
       "/lions-mane-cultivation.jpg",
@@ -147,7 +147,7 @@ const products: ProductData[] = [
     ],
     cultivationDetails:
       "Our Cordyceps cultivation program is currently in development. We're designing a specialized growing environment with precisely controlled temperature, humidity, and lighting conditions optimized for Cordyceps militaris.\n\nWe're working closely with our research partners to develop substrate formulations that will maximize the production of key bioactive compounds, particularly cordycepin and adenosine. Once in production, our Cordyceps mushrooms will undergo the same rigorous quality testing as our other medicinal mushrooms.",
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     additionalImages: [
       "/cordyceps-cultivation.jpg",
@@ -225,7 +225,7 @@ export default function ProductDetailPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-myco-light px-10">
+      <section className="pt-24 pb-16 bg-myco-light px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="mb-6">
             <Link
@@ -326,7 +326,7 @@ export default function ProductDetailPage() {
       <ProductTabs product={product} />
 
       {/* Related Products */}
-      <section className="py-16 bg-myco-cream px-5">
+      <section className="py-16 bg-myco-cream px-5 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold text-myco-dark mb-4 font-display">
@@ -405,7 +405,7 @@ export default function ProductDetailPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-myco-primary text-white">
+      <section className="py-16 bg-myco-primary text-white flex flex-col items-center justify-center">
         <div className="container text-center">
           <h2 className="text-3xl font-bold mb-6 font-display">
             Interested in {product.title}?

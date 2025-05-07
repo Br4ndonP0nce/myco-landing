@@ -43,7 +43,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 <p>
                   Starting with our flagship product, Lion's Mane, we've built a
                   state-of-the-art facility in Northern Ireland that adheres to
-                  strict EU-GACP standards. This ensures our products meet the
+                  strict FSA standards. This ensures our products meet the
                   rigorous requirements of the food industry.
                 </p>
                 <p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Values Section */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -160,7 +160,7 @@ export default function AboutPage() {
                     ✓
                   </span>
                   <span>
-                    <strong>Quality:</strong> We adhere to stringent EU-GACP
+                    <strong>Quality:</strong> We adhere to stringent FSA
                     standards to ensure food-grade products.
                   </span>
                 </li>
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -240,9 +240,9 @@ export default function AboutPage() {
                 </p>
                 <p className="text-myco-dark/80 mb-4">
                   With over 7 years of experience in the food industry,
-                  including work with Redacted and consulting with several
-                  EU-GACP cannabis projects in the EU. holds an MSc in food
-                  Analysis and a BSc in Biomedical Science.
+                  including work with Redacted and consulting with several FSA
+                  cannabis projects in the EU. holds an MSc in food Analysis and
+                  a BSc in Biomedical Science.
                 </p>
                 <Link
                   href="https://linkedin.com/"
@@ -265,7 +265,7 @@ export default function AboutPage() {
       </section>
 
       {/* Scientific Advisors Section */}
-      <section className="py-16 bg-myco-light px-5">
+      <section className="py-16 bg-myco-light px-5 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -338,7 +338,7 @@ export default function AboutPage() {
       </section>
 
       {/* Facility Section */}
-      <section className="py-16 bg-white px-5 md:px-10">
+      <section className="py-16 bg-white px-5 md:px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -357,9 +357,9 @@ export default function AboutPage() {
                   for medicinal mushrooms.
                 </p>
                 <p>
-                  The facility is being upgraded to obtain EU-GACP and FSSC
-                  22000 certification, ensuring we meet the highest standards
-                  for food-grade mushroom production.
+                  The facility is being upgraded to obtain FSA and FSSC 22000
+                  certification, ensuring we meet the highest standards for
+                  food-grade mushroom production.
                 </p>
                 <p>
                   Our facility features multiple climate-controlled rooms with
@@ -389,7 +389,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-myco-primary text-white">
+      <section className="py-16 bg-myco-primary text-white flex flex-col items-center justify-center">
         <div className="container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

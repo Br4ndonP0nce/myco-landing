@@ -61,7 +61,7 @@ const OverviewTab = ({ product }: { product: ProductData }) => {
             <p className="text-myco-dark/80">
               All our mushroom products undergo rigorous quality testing to
               ensure potency, purity, and safety. Our {product.title} is
-              cultivated under strict EU-GACP guidelines, ensuring consistent
+              cultivated under strict FSA guidelines, ensuring consistent
               food-grade quality.
             </p>
           </div>
@@ -172,7 +172,7 @@ const CultivationTab = ({ product }: { product: ProductData }) => {
               <BadgeCheck className="h-6 w-6 text-myco-primary" />
             </div>
             <h4 className="text-lg font-bold text-myco-primary mb-2">
-              EU-GACP Certified
+              FSA Certified
             </h4>
             <p className="text-myco-dark/80">
               Our cultivation process follows strict European Good Agricultural
@@ -295,7 +295,7 @@ export default function ProductTabs({ product }: { product: ProductData }) {
   const MemoizedResearchTab = React.memo(ResearchTab);
 
   return (
-    <section className="py-16 bg-white px-5">
+    <section className="py-16 bg-white px-5 flex flex-col items-center justify-center">
       <div className="container">
         <Tabs
           defaultValue="overview"

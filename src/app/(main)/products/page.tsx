@@ -34,7 +34,7 @@ const products = [
       "Cognitive enhancement",
       "Immune support",
     ],
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     status: "Available",
     slug: "lions-mane",
@@ -51,7 +51,7 @@ const products = [
       "Respiratory health",
       "Anti-inflammatory",
     ],
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     status: "Coming Soon",
     slug: "cordyceps",
@@ -69,7 +69,7 @@ const products = [
       "Beta-glucans",
     ],
     applications: ["Immune modulation", "Stress reduction", "Sleep support"],
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     status: "In Development",
     slug: "reishi",
@@ -87,7 +87,7 @@ const products = [
       "Polyphenols",
     ],
     applications: ["Immune support", "Antioxidant", "Digestive health"],
-    certifications: ["EU-GACP", "FSSC 22000"],
+    certifications: ["FSA", "FSSC 22000"],
     image: "/placeholder-mushroom.jpg",
     status: "Future Development",
     slug: "turkey-tail",
@@ -125,7 +125,7 @@ export default function ProductsPage() {
       </section>
 
       {/* Product Categories */}
-      <section className="py-16 bg-white  ">
+      <section className="py-16 bg-white flex flex-col items-center justify-center">
         <div className="container">
           <Tabs defaultValue="all" className="w-full  ">
             <div className="flex justify-center mb-8  ">
@@ -233,7 +233,7 @@ export default function ProductsPage() {
       </section>
 
       {/* Quality Standards Section */}
-      <section className="py-16 bg-myco-cream  px-10">
+      <section className="py-16 bg-myco-cream  px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <motion.div
@@ -264,7 +264,7 @@ export default function ProductsPage() {
                 <BadgeCheck className="h-6 w-6 text-myco-primary" />
               </div>
               <h3 className="text-xl font-bold text-myco-primary mb-3">
-                EU-GACP Certification
+                FSA Certification
               </h3>
               <p className="text-myco-dark/80 mb-4">
                 Our facility is being upgraded to meet European Good
@@ -393,7 +393,7 @@ export default function ProductsPage() {
       </section>
 
       {/* B2B Services Section */}
-      <section className="py-16 bg-white  px-10">
+      <section className="py-16 bg-white  px-10 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -412,7 +412,7 @@ export default function ProductsPage() {
                   ingredients for their products.
                 </p>
                 <p>
-                  Our EU-GACP certification ensures that our mushrooms meet the
+                  Our FSA certification ensures that our mushrooms meet the
                   rigorous standards required for food applications, while our
                   comprehensive testing guarantees potency and safety.
                 </p>
@@ -502,7 +502,7 @@ export default function ProductsPage() {
       </section>
 
       {/* Research Collaboration Section */}
-      <section className="py-16 bg-myco-light  px-5">
+      <section className="py-16 bg-myco-light  px-5 flex flex-col items-center justify-center">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -564,7 +564,7 @@ export default function ProductsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-myco-primary text-white">
+      <section className="py-16 bg-myco-primary text-white flex flex-col items-center justify-center">
         <div className="container text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

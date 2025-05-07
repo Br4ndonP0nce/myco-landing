@@ -83,7 +83,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form & Info Section */}
-      <section className="py-16 bg-white px-10">
+      <section className="py-16 bg-white px-10 flex flex-col items-center">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
@@ -302,7 +302,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-myco-cream px-10">
+      <section className="py-16 bg-myco-cream px-10 flex flex-col items-center">
         <div className="container">
           <h2 className="text-3xl font-bold text-myco-dark mb-8 font-display text-center">
             Visit Our Facility
@@ -327,7 +327,7 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white flex flex-col items-center">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold text-myco-dark mb-4 font-display">
@@ -355,10 +355,10 @@ export default function ContactPage() {
                 What certifications do your products have?
               </h3>
               <p className="text-myco-dark/80">
-                Our facility is being upgraded to meet EU-GACP (Good
-                Agricultural and Collection Practice) standards, ensuring our
-                products meet food-grade requirements. We are also pursuing FSSC
-                22000 certification.
+                Our facility is being upgraded to meet FSA (Good Agricultural
+                and Collection Practice) standards, ensuring our products meet
+                food-grade requirements. We are also pursuing FSSC 22000
+                certification.
               </p>
             </div>
 
